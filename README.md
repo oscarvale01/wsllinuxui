@@ -53,3 +53,16 @@ Este repositorio contiene un script para automatizar la instalación de la inter
   ```sh
   sudo /etc/init.d/xrdp start
 
+## Prueba un script para analizar Ips
+- Modifica los permisos del archivo (si aplica)
+  ```sh
+  chmod +x investigar_ip.sh
+  ```
+- Ejecuta el script
+  ```sh
+  ./investigar_ip.sh <IP-objetivo>
+  ```
+
+
+
+
